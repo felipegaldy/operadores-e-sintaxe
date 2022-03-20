@@ -10,7 +10,6 @@ exemplo:
  Input: 1, 2Output: Os números 1 e 2 não são iguais. 
 Sua soma é 3, que é menor que 10 e menor que 20.*/
 
-
 const comparaNumero = (a, b) => { 
     if (typeof a + typeof b === 'numbernumber') {
     let res = a == b? `Os números ${a} e ${b} são iguais`:`Os números ${a} e ${b} não são iguais`;
